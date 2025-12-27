@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: red;
+    background-color: #f5fdfb;
 }
 
 header {
@@ -36,10 +36,38 @@ nav a {
     text-align: center;
 }
 
+.servicios li{
+
+    marker: none;
+}
+
+.page {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #2bbbad;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
 footer {
     background-color: #1e1e1e;
     color: white;
     text-align: center;
     padding: 10px;
 }
-
